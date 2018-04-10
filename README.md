@@ -82,7 +82,12 @@ def checkInfinite(self):
 
 
 
-
+### Prefix Tree
+Note
+- A prefix Tree is a data structure that compactly stores strings
+- Use dict as alternative to pointers
+  - Observe regulariry of structure
+  - Each box is a  dict object
 
 
 
