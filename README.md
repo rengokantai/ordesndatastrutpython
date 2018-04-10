@@ -89,8 +89,21 @@ Note
   - Observe regulariry of structure
   - Each box is a  dict object
 
-
-
+  
+```
+class PrefixTree:
+  def __init__(self):
+    self.head={}
+  def add(self,value):
+    d = self.head
+    while len(value)>0:
+      c = value[0]
+      if c not in d:
+        d[c] = {}
+      d=d[c]
+      value = value[1:]
+    d[wordkey] = True
+```
 
 
 
