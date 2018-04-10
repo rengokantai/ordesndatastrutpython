@@ -40,6 +40,27 @@ class LinkedList:
   
 ```
 
+### Queues
+```
+def append(self, value):
+  newNode = LinkedNode(value, None)
+  if self.head is None:
+    self.head = self.tail = newNode
+  else:
+    self.tail.next=newNode
+    self.tail=newNode
+
+def isEmpty(self):
+  return self.head = None
+def pop(self):
+  if self.head is None:
+    raise Exception("Queue is Empty")
+  val = self.head.value
+  self.head = self.head.next
+  if self.head is None:
+    self.tail = None
+  return val
+````
 
 
 
