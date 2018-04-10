@@ -123,3 +123,11 @@ def __contains__(self,value):
 - Python garbage collection reclaims unused nodes
 
 
+## Spatial Data Structures
+### KD-Trees
+
+Useful during range query
+
+
+
+### Quad-Trees
