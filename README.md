@@ -102,8 +102,24 @@ class PrefixTree:
         d[c] = {}
       d=d[c]
       value = value[1:]
+    if wordkey in d:
+      return False
     d[wordkey] = True
+    return True
+def __contains__(self,value):
+  d = self.head
+  while len(value) >0:
+    c = value(0)
+      if c not in d:
+        return False
+      d = d[c]
+      value = value[1:]
+  return workey in d
+      
 ```
-
+### Pointer-Based Structure Summary
+- Provides sructural basis for recursive data structures
+- Code will not compete with built-in types
+- Python garbage collection reclaims unused nodes
 
 
