@@ -62,6 +62,11 @@ def pop(self):
   return val
 ````
 
+#### Pointer-Based Queues Summary
+Dont need to implement Queue
+- Use collections.deque instead
+- 5x faster on sample
+
 
 
 
