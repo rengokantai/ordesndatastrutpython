@@ -22,6 +22,10 @@ class LinkedList:
           self.head = self.head.next
         else:
           last.next = n.next
+        return True
+    last = n
+    return False
+      
   def pop(self):
     if self.head is None:
       raise Exception("empty list")
@@ -35,3 +39,16 @@ class LinkedList:
       n=n.next
   
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
