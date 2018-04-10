@@ -68,6 +68,17 @@ Dont need to implement Queue
 - 5x faster on sample
 
 
+### Project: Detect Cycles in Linked List
+```
+def checkInfinite(self):
+  p1=p2=self
+  while p1!=None and p2!=None:
+    if p1.next == None: return False
+    p1 = p1.next
+    p2=p2.next.next
+    if p1==p2: return True
+  return False
+```
 
 
 
