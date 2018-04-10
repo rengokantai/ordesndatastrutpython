@@ -127,7 +127,7 @@ def __contains__(self,value):
 ### KD-Trees
 
 Useful during range query
-
+- Effciently return entire sub-tree
 
 
 ### Quad-Trees
